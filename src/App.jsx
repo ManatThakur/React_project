@@ -13,6 +13,7 @@ function App() {
 
   return (
     <>
+    <div className="p-50 bg white">
    <Header/>
       <Projects/>
       <Skills/>
@@ -20,7 +21,7 @@ function App() {
       <Hobbies/>
       <Activity/>
       <Contact/>
-    
+    </div>
     </>
   )
 }
